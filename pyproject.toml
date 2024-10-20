@@ -1,0 +1,20 @@
+[project]
+name = "ml_hack_0"
+version = "v0.0"
+readme = "ReadMe.md"
+description = "Recreational Hack #0: Something involving ML and vision"
+requires-python = ">=3.12.7,<=3.13.0"
+
+authors = [
+    {name = "Various hackers"}
+]
+
+keywords = [
+    "ai", "distributed", "internet of things", "machine learning"
+]
+
+dependencies = [
+    "aiko_services @ https://github.com/geekscape/aiko_services/archive/7d836430c992be00f1fe859062e8c49b6a0ffa8a.zip",  # 2024-10-18
+    "click~=8.1.7",
+    "opencv-python~=4.10.0.84"
+]
