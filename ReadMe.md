@@ -32,5 +32,7 @@ aiko_pipeline create src/ml_hack_0/webcam_pipeline.json -s 1 -ll debug
 
 ## Development
 
+```
 vi src/ml_hack_0/webcam_pipeline.json  # PipelineDefinition
 vi src/ml_hack_0/elements.py           # PipelineElements source code
+```
